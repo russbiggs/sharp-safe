@@ -1,0 +1,201 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name":"Jack & Jill Park Kiosk",
+        "address": "433 Arizona St. SE, 87108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.577001,
+          35.070922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name":"Southeast Heights Kiosk",
+        "address": "7605 Central Ave NE, 87108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.562825,
+          35.076025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name":"Coronado Park Kiosk",
+        "address": "2801 2nd St. NW, 87107"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.64394,
+          35.112468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name":" Tower Park Kiosk",
+        "address": "700 82nd St. NW, 87121"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.726863,
+          35.063898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name":"Wilson Park Kiosk",
+        "address": "1099 San Pedro Dr SE, 87108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.577659,
+          35.061873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+                "name":"Bel Air Park Kiosk",
+        "address": "3901 Phoenix NE & Belair, 87110"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.600332,
+          35.11106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+                "name":"Southwest Kiosk",
+        "address": "Central and Coors SW Bus Stop, 87121"
+
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.71160519123077,
+          35.079592040451026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+                "name":"Midtown Public Health Office",
+        "address": "2400 Wellesley Ave NE, 87107"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.606966,
+          35.107786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+                "name":"Albuquerque Healthcare for the Homeless",
+        "address": "1217 1st St NW, 87102"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.64651,
+          35.09528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name":"North Valley Public Health Office",
+        "address": "7704 2nd St. NW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.628044,
+          35.16732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+                "name":"UNM - ASAP (Addiction and Substance Abuse Program)",
+        "address": "2600 Yale SE "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.621686,
+          35.053472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name":"Transgender Resource Center of NM",
+        "address": "149 Jackson St. NE, 87108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.589378,
+          35.079943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name":"Casa De Salud (Just Healthcare)",
+        "address": "1608 Isleta Blvd. NW, 87105"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.676749,
+          35.053195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+                "name":"Highland Pharmacy",
+        "address": "717 Encino Pl. NE, 87102"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+-106.631847,35.088757
+        ]
+      }
+    }
+  ]
+}
