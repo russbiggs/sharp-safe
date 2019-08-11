@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
     crossorigin=""/>
@@ -16,16 +17,19 @@
         html, body {
             height:100vh;
             margin:0;
+            font-family: 'Roboto', sans-serif;
         }
 
 
         .find-btn {
             position: fixed;
+            box-shadow: 1px 1px 2px #333;
+            cursor: pointer;
             top:0;
             z-index: 999;
             margin: 0 auto;
-            left: 50%;
-            transform: translateX(-50%);
+            width: 200px;
+            left: calc(50% - 100px);
             background-color: #008CBA;
             border: none;
             color: white;
@@ -34,7 +38,14 @@
             text-decoration: none;
             display: inline-block;
             font-size: 16px;
-            }
+            transform: translateY(-92px);
+            will-change: transform;
+            transition: transform 0.4s ease-in-out;
+        }
+
+        .find-btn--visible {
+            transform: none;
+        }
 
         .find-btn:focus {outline:0;}
 
@@ -73,8 +84,8 @@
 </head>
 <body>
     <div id="map"></div>
-    <button class="find-btn" disabled>Find Nearest Sharps Disposal</button>
-    <div class="snack snack--hidden"> FOOO BARR</div>
+    <button class="find-btn find-btn--hidden" disabled>Click to find nearest sharps disposal</button>
+    <div class="snack snack--hidden"></div>
 
     <script src="main.js"></script>
 </body>

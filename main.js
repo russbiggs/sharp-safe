@@ -28,6 +28,7 @@
         L.marker(e.latlng).addTo(map)
         L.circle(e.latlng).addTo(map); 
         findBtn.disabled = false;
+        findBtn.classList.add('find-btn--visible');
     }
     
     map.on('locationfound', onLocationFound);
@@ -48,7 +49,7 @@
             },
             onEachFeature: function (feature, layer) {
                 layer.bindPopup('<h3>'+feature.properties.name+'</h3><p>'+feature.properties.address+'</p>');
-              }
+            }
         }).addTo(map);
     })
 
@@ -62,7 +63,6 @@
         var lon = nearest.geometry.coordinates[0];
         var lat = nearest.geometry.coordinates[1];
         map.flyTo({lon: lon, lat: lat}, 18,{duration: 2.0})
-        
         snack.classList.remove('snack--hidden');
         snack.classList.add('snack--visible');
         var miles = distance * 0.621371
@@ -74,6 +74,5 @@
             snack.innerHTML = '';
           }, 500);
         }, 2500);
-
     })
 })()
